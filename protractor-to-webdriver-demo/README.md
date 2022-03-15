@@ -46,6 +46,3 @@ This is Test Automation framework designed using Protractor, Jasmine and TypeScr
 
 ### How to Update local npm packages
 * Go to Project root directory and run command: `npm update`
-
-### Sample Test Results
-![Protractor, Jasmine and Typescript Test Results](./images/test-results.png?raw=true "Protractor, Jasmine and Typescript Test Results")
