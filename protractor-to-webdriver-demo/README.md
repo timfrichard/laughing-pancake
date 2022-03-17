@@ -65,3 +65,12 @@ This is Test Automation framework designed using Protractor, Jasmine and TypeScr
 ## See the following page for how-to
 
 - https://github.com/timfrichard/laughing-pancake/tree/main/protractor-to-webdriver-demo
+
+
+## Things that need to be checked from a Protractor perspectve
+- import { browser } from "protractor" .getCapabilities .element .wait 
+- import { browser, by, ElementFinder, ExpectedConditions } from 'protractor' ExpectedCondition.presenceOf
+- import { $, by, ElementFinder, ExpectedConditions } from 'protractor'
+- import { browser, by, ElementArrayFinder, ElementFinder, ExpectedConditions} from 'protractor'
+- import { browser, by, element, ElementFinder, ExpectedConditions } from 'protractor'
+
