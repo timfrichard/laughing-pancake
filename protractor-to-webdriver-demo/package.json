@@ -4,7 +4,11 @@
   "description": "Project to demonstrate converting a protractor e2e testing project to use selenium webdriver",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "tsc": "tsc",
+    "clean": "rimraf temp/ && rimraf download/ && rimraf test-results/",
+    "pretest": "npm run clean && npm run tsc",
+    "test": "protractor temp/conf.js",
+    "webdriver-update": "node node_modules/protractor/bin/webdriver-manager update"
   },
   "keywords": [
     "Protractor",
